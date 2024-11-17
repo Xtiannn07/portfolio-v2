@@ -13,7 +13,7 @@ const Index = () => {
               transition={{ duration: 0.5 }}
               className="text-4xl sm:text-5xl md:text-6xl font-bold text-secondary"
             >
-              Hi, I'm <span className="text-primary">Your Name</span>
+              Hi, I'm <span className="text-primary">Christian Marc Galingan</span>
             </motion.h1>
             <motion.p
               initial={{ opacity: 0, y: 20 }}
