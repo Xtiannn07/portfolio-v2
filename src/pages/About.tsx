@@ -11,7 +11,7 @@ const About = () => {
               to life through clean, efficient code and intuitive interfaces.
             </p>
             <p className="text-gray-600 leading-relaxed">
-              My journey in web development started [X] years ago, and since then, I've had the
+              My journey in web development started several years ago, and since then, I've had the
               pleasure of working on diverse projects that have helped me grow both professionally
               and personally.
             </p>

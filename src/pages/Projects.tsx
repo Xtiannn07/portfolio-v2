@@ -1,22 +1,22 @@
 const projects = [
   {
     title: "Project 1",
-    description: "A brief description of project 1",
+    description: "A modern web application built with React and TypeScript",
     image: "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7",
     tags: ["React", "TypeScript"],
     link: "#",
   },
   {
     title: "Project 2",
-    description: "A brief description of project 2",
-    image: "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7",
+    description: "Full-stack application with Next.js and Tailwind CSS",
+    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f",
     tags: ["Next.js", "Tailwind"],
     link: "#",
   },
   {
     title: "Project 3",
-    description: "A brief description of project 3",
-    image: "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7",
+    description: "E-commerce platform with modern technologies",
+    image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d",
     tags: ["React", "Node.js"],
     link: "#",
   },
