@@ -40,7 +40,7 @@ const Index = () => {
                   Get in Touch
                 </a>
                 <a
-                  href="#" // Replace with your resume URL
+                  href="https://drive.google.com/file/d/14nkydbnYY3w281OM0As4ob-9KECDTi9S/view?usp=sharing" // Replace with your resume URL
                   className="w-full sm:w-auto inline-flex items-center justify-center bg-secondary text-secondary-foreground px-6 sm:px-8 py-2 sm:py-3 rounded-full text-base sm:text-lg font-medium hover:bg-secondary/90 transition-colors"
                   download
                 >
