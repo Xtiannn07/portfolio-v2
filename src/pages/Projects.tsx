@@ -53,10 +53,13 @@ const Projects = () => {
                     </span>
                   ))}
                 </div>
-                <a
-                  href={project.link}
-                  className="text-primary hover:text-primary/80 font-medium"
-                >
+               <a
+                  href="#"
+                  onClick={(e) => {
+                    e.preventDefault(); // Prevent navigation
+                    alert("This feature is not available yet.");
+                  }}
+                  className="text-primary hover:text-primary/80 font-medium">
                   View Project →
                 </a>
               </div>
