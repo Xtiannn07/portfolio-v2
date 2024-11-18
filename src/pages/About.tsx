@@ -22,14 +22,14 @@ const About = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
-            <h1 className="text-4xl font-bold text-secondary">About Me</h1>
+            <h1 className="text-4xl font-bold text-primary">About Me</h1>
             <p className="text-gray-600 leading-relaxed">
               I'm a passionate web developer with a keen eye for design and a love for creating
               seamless user experiences. With expertise in modern web technologies, I bring ideas
               to life through clean, efficient code and intuitive interfaces.
             </p>
             <p className="text-gray-600 leading-relaxed">
-              My journey in web development started several years ago, and since then, I've had the
+              My journey in web development started during my first year in college years, and since then, I've had the
               pleasure of working on diverse projects that have helped me grow both professionally
               and personally.
             </p>
