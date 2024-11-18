@@ -58,7 +58,7 @@ const Index = () => {
               className="lg:w-1/2 mt-10 lg:mt-0"
             >
               <img
-                src="/Gradpic1.jpg" // Replace with your image URL
+                src="/Gradpic1.JPG" // Replace with your image URL
                 alt="Profile"
                 className="w-full max-w-md mx-auto rounded-lg shadow-xl"
               />
