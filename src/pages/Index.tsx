@@ -13,7 +13,7 @@ import {
   SiTailwindcss,
   SiCplusplus,
   SiCsharp,
-  SiMicrosoftazuresql,
+  SiMicrosoftazure,
   SiNextdotjs,
 } from "react-icons/si";
 
@@ -100,7 +100,7 @@ const Index = () => {
               <SkillIcon Icon={FaPython} name="Python" color="#3776AB" />
               <SkillIcon Icon={FaReact} name="React" color="#61DAFB" />
               <SkillIcon Icon={SiNextdotjs} name="Next.js" color="#000000" />
-              <SkillIcon Icon={SiMicrosoftazuresql} name="SQL" color="#CC2927" />
+              <SkillIcon Icon={SiMicrosoftazure} name="SQL" color="#0078D4" />
               <SkillIcon Icon={FaNode} name="Node.js" color="#339933" />
             </div>
           </motion.div>
