@@ -31,17 +31,17 @@ const Index = () => {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: 0.4 }}
-                className="mt-10 grid grid-cols-2 gap-4 max-w-xs mx-auto lg:mx-0"
+                className="mt-10 flex flex-col sm:flex-row gap-4 max-w-xs mx-auto lg:mx-0 sm:max-w-md justify-center lg:justify-start"
               >
                 <a
                   href="/contact"
-                  className="bg-primary text-white px-4 sm:px-8 py-2 sm:py-3 rounded-full text-base sm:text-lg font-medium hover:bg-primary/90 transition-colors"
+                  className="w-full sm:w-auto bg-primary text-white px-6 sm:px-8 py-2 sm:py-3 rounded-full text-base sm:text-lg font-medium hover:bg-primary/90 transition-colors text-center"
                 >
                   Get in Touch
                 </a>
                 <a
                   href="#" // Replace with your resume URL
-                  className="inline-flex items-center justify-center bg-secondary text-secondary-foreground px-4 sm:px-8 py-2 sm:py-3 rounded-full text-base sm:text-lg font-medium hover:bg-secondary/90 transition-colors"
+                  className="w-full sm:w-auto inline-flex items-center justify-center bg-secondary text-secondary-foreground px-6 sm:px-8 py-2 sm:py-3 rounded-full text-base sm:text-lg font-medium hover:bg-secondary/90 transition-colors"
                   download
                 >
                   <Download className="mr-2 h-4 w-4 sm:h-5 sm:w-5" />
