@@ -24,7 +24,7 @@ const About = () => {
           <div className="space-y-6">
             <h1 className="text-4xl font-bold text-secondary">About Me</h1>
             <p className="text-gray-600 leading-relaxed">
-              I'm a passionate web developer with a keen eye for design and a love for creating
+              I'm a family guy and a passionate web developer with a keen eye for design and a love for creating
               seamless user experiences. With expertise in modern web technologies, I bring ideas
               to life through clean, efficient code and intuitive interfaces.
             </p>
