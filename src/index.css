@@ -16,8 +16,8 @@
     --primary: 222.2 47.4% 11.2%; /* black */
     --primary-foreground: 210 40% 98%;
     
-    --secondary: 210 40% 50%; /* Darker gray */
-    --secondary-foreground: 222.2 47.4% 11.2%; 
+    --secondary: 0 0% 50%; /* Neutral dark gray */
+    --secondary-foreground: 0 0% 11%; /* Very dark neutral gray */
 
 
     --muted: 210 40% 96.1%;
