@@ -2,7 +2,7 @@ const projects = [
   {
     title: "Project 1",
     description: "My portfolio with React, TypeScript, and Next.js",
-    image: "/placeholder.svg",
+    image: "/portfolio.jpg",
     tags: ["React", "TypeScript", "Next.js"],
     link: "#",
   },
