@@ -20,7 +20,9 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16">
           <div className="flex items-center">
-            <Link to="/" className="text-xl font-bold text-primary">Portfolio</Link>
+            <Link to="/" className="text-xl font-bold text-primary hover:underline transition-all duration-200">
+              Portfolio
+            </Link>
           </div>
 
           {/* Desktop Navigation */}
@@ -33,7 +35,7 @@ const Navbar = () => {
                   isActive(item.path)
                     ? "text-primary font-semibold"
                     : "text-gray-600 hover:text-primary"
-                } transition-colors duration-200`}
+                } hover:underline transition-all duration-200`}
               >
                 {item.label}
               </Link>
@@ -64,7 +66,7 @@ const Navbar = () => {
                   isActive(item.path)
                     ? "text-primary font-semibold"
                     : "text-gray-600"
-                } block px-3 py-2 rounded-md text-base hover:bg-gray-50`}
+                } block px-3 py-2 rounded-md text-base hover:text-primary hover:underline transition-all duration-200`}
                 onClick={() => setIsOpen(false)}
               >
                 {item.label}
