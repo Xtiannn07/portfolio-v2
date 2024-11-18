@@ -1,8 +1,8 @@
 const projects = [
   {
     title: "Project 1",
-    description: "A modern web application built with React and TypeScript",
-    image: "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7",
+    description: "My portfolio with React and TypeScript",
+    image: "/placeholder.svg",
     tags: ["React", "TypeScript"],
     link: "#",
   },
