@@ -14,7 +14,7 @@ const Index = () => {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5 }}
-                className="text-4xl sm:text-5xl md:text-6xl font-bold text-secondary"
+                className="text-4xl sm:text-5xl md:text-6xl font-bold text-primary"
               >
                 Hi, I'm{" "}
                 <span className="text-primary">Christian Marc Galingan</span>
