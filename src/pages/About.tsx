@@ -36,8 +36,8 @@ const About = () => {
           </div>
           <div className="relative">
             <img
-              src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158"
-              alt="Profile"
+              src="/aboutme.jpg"
+              alt="Family"
               className="rounded-lg shadow-xl"
             />
           </div>
