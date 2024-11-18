@@ -1,21 +1,5 @@
 import { motion } from "framer-motion";
 import { Download } from "lucide-react";
-import {
-  FaHtml5,
-  FaCss3Alt,
-  FaJs,
-  FaReact,
-  FaNode,
-  FaPython,
-} from "react-icons/fa";
-import {
-  SiTypescript,
-  SiTailwindcss,
-  SiCplusplus,
-  SiCsharp,
-  SiMicrosoftazure,
-  SiNextdotjs,
-} from "react-icons/si";
 
 const Index = () => {
   return (
@@ -80,44 +64,10 @@ const Index = () => {
               />
             </motion.div>
           </div>
-
-          {/* Skills Section */}
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5, delay: 0.8 }}
-            className="mt-20"
-          >
-            <h2 className="text-3xl font-bold text-center mb-10">Skills</h2>
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-3xl mx-auto">
-              <SkillIcon Icon={FaHtml5} name="HTML5" color="#E34F26" />
-              <SkillIcon Icon={FaCss3Alt} name="CSS3" color="#1572B6" />
-              <SkillIcon Icon={FaJs} name="JavaScript" color="#F7DF1E" />
-              <SkillIcon Icon={SiTypescript} name="TypeScript" color="#3178C6" />
-              <SkillIcon Icon={SiTailwindcss} name="Tailwind CSS" color="#06B6D4" />
-              <SkillIcon Icon={SiCplusplus} name="C++" color="#00599C" />
-              <SkillIcon Icon={SiCsharp} name="C#" color="#239120" />
-              <SkillIcon Icon={FaPython} name="Python" color="#3776AB" />
-              <SkillIcon Icon={FaReact} name="React" color="#61DAFB" />
-              <SkillIcon Icon={SiNextdotjs} name="Next.js" color="#000000" />
-              <SkillIcon Icon={SiMicrosoftazure} name="SQL" color="#0078D4" />
-              <SkillIcon Icon={FaNode} name="Node.js" color="#339933" />
-            </div>
-          </motion.div>
         </div>
       </section>
     </div>
   );
 };
-
-const SkillIcon = ({ Icon, name, color }: { Icon: any; name: string; color: string }) => (
-  <motion.div
-    whileHover={{ scale: 1.1 }}
-    className="flex flex-col items-center justify-center p-4"
-  >
-    <Icon className="w-12 h-12" style={{ color }} />
-    <span className="mt-2 text-sm font-medium text-gray-600">{name}</span>
-  </motion.div>
-);
 
 export default Index;
