@@ -1,22 +1,22 @@
 const projects = [
   {
     title: "Project 1",
-    description: "My portfolio with React and TypeScript",
+    description: "My portfolio with React, TypeScript, and Next.js",
     image: "/placeholder.svg",
-    tags: ["React", "TypeScript"],
+    tags: ["React", "TypeScript", "Next.js"],
     link: "#",
   },
   {
     title: "Project 2",
     description: "Full-stack application with Next.js and Tailwind CSS",
-    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f",
+    image: "/placeholder.svg",
     tags: ["Next.js", "Tailwind"],
     link: "#",
   },
   {
     title: "Project 3",
     description: "E-commerce platform with modern technologies",
-    image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d",
+    image: "/placeholder.svg",
     tags: ["React", "Node.js"],
     link: "#",
   },
