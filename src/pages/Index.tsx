@@ -25,7 +25,7 @@ const Index = () => {
                 transition={{ duration: 0.5, delay: 0.2 }}
                 className="mt-6 text-xl sm:text-2xl text-gray-600"
               >
-                A passionate developer crafting beautiful web experiences
+                A passionate developer, ready to explore and indulge web experiences
               </motion.p>
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
