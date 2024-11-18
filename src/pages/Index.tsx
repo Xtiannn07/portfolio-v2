@@ -60,7 +60,7 @@ const Index = () => {
               <img
                 src="/Gradpic1.JPG" // Replace with your image URL
                 alt="Profile"
-                className="w-full max-w-md mx-auto rounded-lg shadow-xl"
+                className="rounded-full h-auto max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg my-3 sm:my-4 mx-auto w-1/2 sm:w-1/2 lg:w-3/4 shadow-xl"
               />
             </motion.div>
           </div>
