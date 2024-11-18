@@ -12,7 +12,7 @@ import {
   SiTailwindcss,
   SiCplusplus,
   SiCsharp,
-  SiMicrosoftazure,
+  SiMysql,
   SiNextdotjs,
 } from "react-icons/si";
 
@@ -51,7 +51,7 @@ const About = () => {
           className="mt-20"
         >
           <h2 className="text-3xl font-bold text-center mb-10">Skills</h2>
-          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-8 max-w-3xl mx-auto">
+          <div className="grid grid-cols-4 gap-4 max-w-3xl mx-auto">
             <SkillIcon Icon={FaHtml5} name="HTML5" color="#E34F26" />
             <SkillIcon Icon={FaCss3Alt} name="CSS3" color="#1572B6" />
             <SkillIcon Icon={FaJs} name="JavaScript" color="#F7DF1E" />
@@ -62,7 +62,7 @@ const About = () => {
             <SkillIcon Icon={FaPython} name="Python" color="#3776AB" />
             <SkillIcon Icon={FaReact} name="React" color="#61DAFB" />
             <SkillIcon Icon={SiNextdotjs} name="Next.js" color="#000000" />
-            <SkillIcon Icon={SiMicrosoftazure} name="SQL" color="#0078D4" />
+            <SkillIcon Icon={SiMysql} name="MySQL" color="#4479A1" />
             <SkillIcon Icon={FaNode} name="Node.js" color="#339933" />
           </div>
         </motion.div>
@@ -74,9 +74,9 @@ const About = () => {
 const SkillIcon = ({ Icon, name, color }: { Icon: any; name: string; color: string }) => (
   <motion.div
     whileHover={{ scale: 1.1 }}
-    className="flex flex-col items-center justify-center p-4"
+    className="flex flex-col items-center justify-center p-2"
   >
-    <Icon className="w-12 h-12" style={{ color }} />
+    <Icon className="w-full h-auto max-w-[3rem]" style={{ color }} />
     <span className="mt-2 text-sm font-medium text-gray-600">{name}</span>
   </motion.div>
 );
