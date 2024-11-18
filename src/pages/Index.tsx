@@ -27,21 +27,13 @@ const Index = () => {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.4 }}
-              className="mt-10 space-x-4"
+              className="mt-10"
             >
               <a
                 href="/contact"
                 className="bg-primary text-white px-8 py-3 rounded-full text-lg font-medium hover:bg-primary/90 transition-colors"
               >
                 Get in Touch
-              </a>
-              <a
-                href="#" // Replace this with your actual resume URL
-                target="_blank"
-                rel="noopener noreferrer"
-                className="bg-secondary text-primary px-8 py-3 rounded-full text-lg font-medium hover:bg-secondary/90 transition-colors"
-              >
-                Download Resume
               </a>
             </motion.div>
           </div>
